@@ -1,4 +1,4 @@
-const HOME_IMAGE = "/HOME_IMAGE.jpeg";
+const HOME_IMAGE = "/HOME_IMAGE1.jpg";
 
 export default function HomePage() {
   return (
@@ -17,32 +17,33 @@ export default function HomePage() {
         <p className="text-lg mt-4 text-gray-300 max-w-2xl leading-relaxed">
           <span className="font-semibold text-white">UNEQUAL</span> is an interactive course exploring power,
           inequality, and ancient societies. Through hands-on experimentation, we study   
-          <a href="/brewing" className="text-yellow-400 hover:underline">brewing</a>,
-          analyze <a href="/trace-residue" className="text-orange-400 hover:underline">trace residues</a>, 
-          and curate artifacts in a <a href="/museum" className="text-blue-400 hover:underline">museum exhibit</a>. 
-          Explore our findings in the <a href="/gallery" className="text-red-400 hover:underline">image gallery</a> or read about them as described by the
-           <a href="/journalism" className="text-purple-700 hover:underline">journalism group</a> .
+          <a href="/brewing" className="text-[#cc9933] hover:underline font-extrabold hover:text-[#C19A6B] hover:underline transition-all duration-300"> brewing</a>,
+          analyze <a href="/trace-residue" className="text-[#cc9933] hover:underline font-extrabold hover:text-[#C19A6B] hover:underline transition-all duration-300">trace residues</a>, 
+          and curate artifacts in a <a href="/museum" className="text-[#cc9933] hover:underline  font-extrabold hover:text-[#C19A6B] hover:underline transition-all duration-300">museum exhibit</a>. 
+          Explore our findings in the <a href="/gallery" className="text-[#cc9933] hover:underline font-extrabold hover:text-[#C19A6B] hover:underline transition-all duration-300">image gallery</a> or read about them as described by the
+          <a href="/journalism" className="text-[#cc9933] hover:underline font-extrabold hover:text-[#C19A6B] hover:underline transition-all duration-300"> journalism group</a>.
         </p>
 
         {/* Navigation Buttons */}
-        <div className="mt-8 grid grid-cols-3 gap-6">
-          <a href="/brewing" className="px-6 py-3 rounded-xl bg-yellow-600 text-white font-semibold text-lg hover:bg-yellow-400 transition-all shadow-lg">
+        <div className="mt-8 flex flex-wrap justify-center gap-6 max-w-3xl">
+          <a href="/brewing" className="px-6 py-3 w-60 text-center rounded-xl bg-[#cc9933] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">
             Brewing 
           </a>
-          <a href="/museum" className="px-6 py-3 rounded-xl bg-blue-700 text-white font-semibold text-lg hover:bg-blue-400 transition-all shadow-lg">
+          <a href="/museum" className="px-6 py-3 w-60 text-center rounded-xl bg-[#cc9933] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">
             Museum Exhibit
           </a>
-          <a href="/gallery" className="px-6 py-3 rounded-xl bg-red-700 text-white font-semibold text-lg hover:bg-red-400 transition-all shadow-lg">
+          <a href="/gallery" className="px-6 py-3 w-60 text-center rounded-xl bg-[#cc9933] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">
             Image Gallery
           </a>
-        </div>
-        <div className="mt-6 grid grid-cols-2 gap-6">
-          <a href="/trace-residue" className="px-6 py-3 rounded-xl bg-orange-700 text-white font-semibold text-lg hover:bg-orange-400 transition-all shadow-lg">
+          <a href="/trace-residue" className="px-6 py-3 w-60 text-center rounded-xl bg-[#cc9933] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">
             Trace Residue
           </a>
-          <a href="/journalism" className="px-6 py-3 rounded-xl bg-purple-800 text-white font-semibold text-lg hover:bg-red-400 transition-all shadow-lg">
+          <a href="/journalism" className="px-6 py-3 w-60 text-center rounded-xl bg-[#cc9933] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">
             Journalism Group 
-          </a>  
+          </a> 
+          <a href="/cooking_event" className="px-6 py-3 w-60 text-center rounded-xl bg-[#cc9933] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">
+            Cooking Event 
+          </a> 
         </div>
       </div>
     </div>
