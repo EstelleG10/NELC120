@@ -9,33 +9,31 @@ export default function CookingEventPage() {
     };
 
     return (
-        <div className="min-h-screen bg-[url('/wood-texture.jpg')] bg-cover bg-fixed text-white px-8 py-16">
+        <div className="min-h-screen bg-black text-white px-8 py-16">
             {/* Title & Event Date */}
             <div className="text-center">
-                <h1 className="text-6xl font-extrabold drop-shadow-md">Feasting Like the Ancients: A Culinary and Archaeological Experiment </h1>
-                <p className="text-lg text-gray-300 mt-2">Exploring ancient recipes and brewing techniques.</p>
-                <p className="text-md text-[#A67B5B] font-semibold mt-1"> February 18th, 2025</p>
+                <h1 className="text-6xl font-extrabold drop-shadow-md">Feasting Like the Ancients: A Culinary and Archaeological Experiment</h1>
+                <p className="text-lg text-orange-600 mt-2">Exploring ancient recipes and brewing techniques.</p>
+                <p className="text-md text-grey-300 font-semibold mt-1">February 18th, 2025</p>
+            </div>
+
+            {/* Event Poster */}
+            <div className="mt-8 flex justify-center">
+                <img src="/POSTER_EVENT.png" alt="Event Poster" className="w-96 h-100 max-w-3xl rounded-lg shadow-lg" />
             </div>
 
             {/* Event Overview */}
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
-                <h2 className="text-3xl font-bold text-[#A67B5B]">Event Overview</h2>
+                <h2 className="text-3xl font-bold text-orange-600">Event Overview</h2>
                 <p className="mt-2 text-lg leading-relaxed">
-                Professors Gojko Barjamovic and Vincent Morel have taken an innovative approach to co-teaching Unequal: Dynamics of Power and Social Hierarchy in Ancient Egypt and Mesopotamia, a Yale College Spring 2025 course that blurs the lines between academic theory and hands-on experimental archaeology.  
-
-From the first day of class, the professors made a bold claim: students would not simply study history but experience it firsthand through experimental archaeology, chemistry, residue analysis, museum exhibitions, and journalism. With a four-part suite of assignments covering these diverse fields, the course promised an ambitious—and slightly chaotic—learning experience. 
-
-At the heart of the class lies the exploration of feasting and drinking as fundamental cultural acts. As Barjamovic noted, “Food defines who we are” (Barjamovic, 2019). He elaborated that fFeasting and drinking can not only build community and influence identity, but can also serve as powerful tools for elite inclusion and exclusion, shaping cultural identity, and even fostering a connection to the divine. 
-
-The course structure reflects this philosophy. Twice-weekly lectures explore themes of cultural development, interaction, and transformation across the ancient Near East and Mediterranean. In addition, students engage in weekly hands-on sections, working in specialized teams focused on brewing and trace analysis, ceramic reconstructions, museum exhibition planning, and journalistic documentation.  
-
-Two major public evening events punctuate the semester: the first, a recreation of ancient Mesopotamian recipes sourced from the Yale Babylonian Collection, and the second, an exploration of ancient brewing techniques, including both the science of fermentation and the reconstruction of ceramic storage vessels used for libations in antiquity. 
+                    <br /><br />
+                    On Tuesday february 18th, people gathered to enjoy a dinner of Bablylonian cusine ... CONTINUIED
                 </p>
             </div>
 
-            {/* Expandable Sections for Writing More */}
+            {/* Expandable Sections */}
             <div className="mt-10 space-y-6">
-                {[
+                {[  
                     { title: "Ingredients & Tools", content: "[List ingredients, tools, and preparation materials.]" },
                     { title: "Preparation Process", content: "[Describe how ingredients were prepared.]" },
                     { title: "Cooking & Techniques", content: "[Step-by-step details of the cooking process.]" },
@@ -57,7 +55,7 @@ Two major public evening events punctuate the semester: the first, a recreation 
                 ))}
             </div>
 
-            {/* Image Upload Section (Optional) */}
+            {/* Event Gallery */}
             <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
                 <h2 className="text-3xl font-bold text-[#A67B5B]">Event Gallery</h2>
                 <p className="text-lg text-gray-300 mt-2">Upload or view images from the event.</p>

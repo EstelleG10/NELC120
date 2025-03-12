@@ -10,7 +10,7 @@ export default function HomePage() {
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Content Box with Dashed Orange Border */}
-      <div className="relative z-10 bg-black/80 p-10 rounded-xl text-white text-center max-w-3xl shadow-lg border-4 border-dashed border-orange-300">
+      <div className="relative z-10 bg-black/80 p-10 rounded-xl text-white text-center max-w-3xl shadow-lg border-4 border-dashed border-[#b33000]">
         <h1 className="text-6xl font-extrabold tracking-tight drop-shadow-lg">𓏋 𓏏 𓏊  UNEQUAL  𓏊 𓏏 𓏋</h1>
         <p className="text-lg mt-4 text-gray-300 leading-relaxed">
           <span className="font-semibold text-white">UNEQUAL</span> is an interactive course exploring power, inequality, and ancient societies. Through hands-on experimentation, we study
@@ -23,12 +23,12 @@ export default function HomePage() {
 
         {/* Navigation Buttons */}
         <div className="mt-8 flex flex-wrap justify-center gap-6 max-w-3xl">
-          <a href="/brewing" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">Brewing</a>
-          <a href="/museum" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">Museum Exhibit</a>
-          <a href="/gallery" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">Image Gallery</a>
-          <a href="/trace-residue" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">Trace Residue</a>
-          <a href="/journalism" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">Journalism Group</a>
-          <a href="/cooking_event" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#5D4037] transition-all shadow-lg">Cooking Event</a>
+          <a href="/brewing" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Brewing</a>
+          <a href="/museum" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Museum Exhibit</a>
+          <a href="/gallery" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Image Gallery</a>
+          <a href="/trace-residue" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Trace Residue</a>
+          <a href="/journalism" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Journalism Group</a>
+          <a href="/cooking_event" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Cooking Event</a>
         </div>
       </div>
     </div>
