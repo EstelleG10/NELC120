@@ -27,7 +27,7 @@ export default function CookingEventPage() {
                 <h2 className="text-3xl font-bold text-orange-600">Event Overview</h2>
                 <p className="mt-2 text-lg leading-relaxed">
                     <br /><br />
-                    On Tuesday february 18th, people gathered to enjoy a dinner of Bablylonian cusine ... CONTINUIED
+                    On Tuesday, February 18th, people gathered to enjoy a dinner of Babylonian cuisine ... CONTINUED
                 </p>
             </div>
 
@@ -43,7 +43,7 @@ export default function CookingEventPage() {
                     <div key={index} className="bg-white/10 backdrop-blur-md p-4 rounded-lg shadow-lg">
                         <button
                             onClick={() => toggleSection(section.title)}
-                            className="w-full text-left text-xl font-bold text-[#A67B5B] flex justify-between items-center"
+                            className="w-full text-left text-xl font-bold text-orange-600 flex justify-between items-center"
                         >
                             {section.title}
                             <span className="text-2xl">{expandedSection === section.title ? "−" : "+"}</span>
@@ -55,9 +55,23 @@ export default function CookingEventPage() {
                 ))}
             </div>
 
+            {/* Video Section */}
+            <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
+                <h2 className="text-3xl font-bold text-orange-600">Event Video</h2>
+                <p className="text-lg text-gray-300 mt-2">Watch highlights from the event.</p>
+
+                <div className="mt-4 flex justify-center">
+                    <video className="rounded-lg shadow-lg w-full max-w-3xl" controls poster="/video-thumbnail.jpg">
+                        <source src="/event-video.mp4" type="video/mp4" />
+                        <source src="/NELC 120 2.18.25 Ancient Recipes - SD 480p.mov" type="video/webm" />
+                        <p className="text-gray-400">Your browser does not support the video tag.</p>
+                    </video>
+                </div>
+            </div>
+
             {/* Event Gallery */}
             <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
-                <h2 className="text-3xl font-bold text-[#A67B5B]">Event Gallery</h2>
+                <h2 className="text-3xl font-bold text-orange-600">Event Gallery</h2>
                 <p className="text-lg text-gray-300 mt-2">Upload or view images from the event.</p>
                 <div className="mt-4 flex space-x-4">
                     <img src="/example1.jpg" alt="Example" className="w-40 h-40 rounded-lg object-cover" />

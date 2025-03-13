@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 
+
 const brewingSteps = [
     {
         id: 1,
@@ -32,6 +33,7 @@ export default function BrewingPage() {
     const [selectedStep, setSelectedStep] = useState(null);
 
     return (
+        
         <div className="min-h-screen bg-gray-900 text-white px-6 py-16">
             <h1 className="text-5xl font-extrabold text-center">Brewing of the Ancient World</h1>
 
