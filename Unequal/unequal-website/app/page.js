@@ -31,8 +31,7 @@ export default function HomePage() {
           <a href="/brewing" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300"> brewing</a>,
           analyze <a href="/trace-residue" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300">trace residues</a>,
           and curate artifacts in a <a href="/museum" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300">museum exhibit</a>.
-          Explore our findings in the <a href="/gallery" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300">image gallery</a> or read about them as described by the
-          <a href="/journalism" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300"> journalism group</a>.
+          Explore our findings in the <a href="/gallery" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300">image gallery</a> or read about them as described in each section.
         </p>
 
         {/* Navigation Buttons */}

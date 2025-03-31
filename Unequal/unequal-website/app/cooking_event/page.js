@@ -9,10 +9,25 @@ export default function CookingEventPage() {
     };
 
     return (
-        <div className="min-h-screen bg-black text-white px-8 py-16">
+        <div className="min-h-screen bg-black text-white pt-24 px-8 pb-16 font-serif">
+            {/* Header */}
+               <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
+        <h2 className="text-3xl text-white font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
+        <nav className="flex gap-6">
+          <a href="/" className="text-white text-lg font-semibold hover:text-[#E2A96D] transition-all">Home</a>
+          <a href="/brewing" className="text-white text-lg font-semibold hover:text-[#E2A96D] transition-all">Brewing</a>
+          <a href="/museum" className="text-white text-lg font-semibold hover:text-[#E2A96D] transition-all">Museum</a>
+          <a href="/gallery" className="text-white text-lg font-semibold hover:text-[#E2A96D] transition-all">Gallery</a>
+          <a href="/trace-residue" className="text-white text-lg font-semibold hover:text-[#E2A96D] transition-all">Trace Residue</a>
+          <a href="/journalism" className="text-white text-lg font-semibold hover:text-[#E2A96D] transition-all">Brewing Event</a>
+          <a href="/cooking_event" className="text-white text-lg font-semibold hover:text-[#E2A96D] transition-all">Cooking Event</a>
+        </nav>
+      </header>
+
             {/* Title & Event Date */}
             <div className="text-center">
-                <h1 className="text-6xl font-extrabold drop-shadow-md">Feasting Like the Ancients: A Culinary and Archaeological Experiment</h1>
+                <h1 className="text-7xl font-extrabold drop-shadow-md">Feasting Like the Ancients:</h1>
+                     <h2 className="text-3xl font-extrabold drop-shadow-md">A Culinary and Archaeological Experiment</h2>
                 <p className="text-lg text-orange-600 mt-2">Exploring ancient recipes and brewing techniques.</p>
                 <p className="text-md text-grey-300 font-semibold mt-1">February 18th, 2025</p>
             </div>
@@ -33,7 +48,7 @@ export default function CookingEventPage() {
 
             {/* Expandable Sections */}
             <div className="mt-10 space-y-6">
-                {[  
+                {[
                     { title: "Ingredients & Tools", content: "[List ingredients, tools, and preparation materials.]" },
                     { title: "Preparation Process", content: "[Describe how ingredients were prepared.]" },
                     { title: "Cooking & Techniques", content: "[Step-by-step details of the cooking process.]" },
@@ -61,7 +76,7 @@ export default function CookingEventPage() {
                 <p className="text-lg text-gray-300 mt-2">Watch highlights from the event.</p>
 
                 <div className="mt-4 flex justify-center">
-                    <video className="rounded-lg shadow-lg w-full max-w-3xl" controls poster="/video-thumbnail.jpg">
+                    <video className="rounded-lg shadow-lg w-full max-w-3xl" controls poster="/class.JPG">
                         <source src="/event-video.mp4" type="video/mp4" />
                         <source src="/NELC 120 2.18.25 Ancient Recipes - SD 480p.mov" type="video/webm" />
                         <p className="text-gray-400">Your browser does not support the video tag.</p>
